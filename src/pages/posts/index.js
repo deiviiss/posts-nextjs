@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { usePosts } from '@context/postContext';
-import PostCard from '../../components/PostCard';
-import PostForm from '../../components/PostForm';
-import Modal from '../../common/Modal';
+import PostCard from '@components/PostCard';
+import PostForm from '@components/PostForm';
+import Modal from '@common/Modal';
 
 export default function Posts() {
 

@@ -1,6 +1,6 @@
-import PostForm from '../../../components/PostForm';
+import PostForm from '@components/PostForm';
 import { useState } from 'react';
-import Modal from '../../../common/Modal';
+import Modal from '@common/Modal';
 
 export default function EditPost() {
   const [open, setOpen] = useState(false);
