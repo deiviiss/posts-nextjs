@@ -30,7 +30,7 @@ export default function Posts() {
 
       {/* posts list */}
       <div className='font-medium text-indigo-600 hover:text-indigo-500 p-y4 p-x4'>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3  sm:grid-cols-2">
           {posts?.map(post => (
 
             <PostCard post={post} key={`Post-${post.postId}`} />
