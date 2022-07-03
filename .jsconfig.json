@@ -1,4 +1,5 @@
 {
+  "include": ["./src/**/*"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
@@ -14,5 +15,6 @@
       "@assets/*": ["assets/*"],
       "@context/*": ["context/*"]
     }
-  }
+  },
+  "exclude": ["_node_modules"]
 }
