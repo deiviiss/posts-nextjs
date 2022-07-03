@@ -15,6 +15,5 @@ const endPoints = {
     deletePost: (id) => `${API}/api/${VERSION}/posts/${id}`
   }
 }
-console.log('from index dictionary');
-console.log(endPoints);
+
 export default endPoints;

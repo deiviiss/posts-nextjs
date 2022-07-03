@@ -16,7 +16,7 @@ export default function FormPost({ setOpen }) {
   });
 
   const router = useRouter();
-  if (!router.isReady) return;
+  // if (!router.isReady) return;
 
   const params = router.query;
 
@@ -27,7 +27,7 @@ export default function FormPost({ setOpen }) {
         setPost(data)
       })();
     }
-  }, [])
+  }, [params.id])
 
   // close modal, redirect to posts list
   // after save post on state, redirect to posts list
