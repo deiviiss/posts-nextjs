@@ -1,5 +1,5 @@
 import { Toaster } from 'react-hot-toast';
-import { PostProvider } from '../context/postContext';
+import { PostProvider } from '@context/postContext';
 import '@styles/tailwind.css';
 
 function MyApp({ Component, pageProps }) {
