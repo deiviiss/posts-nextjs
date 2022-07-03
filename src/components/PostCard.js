@@ -1,5 +1,4 @@
 import { usePosts } from '../context/postContext';
-import Image from 'next/image'
 import { useRouter } from 'next/router';
 import toast from 'react-hot-toast';
 
@@ -55,7 +54,7 @@ export default function PostCard({ post }) {
           <p>{post.description}</p>
         </div>
 
-        {post.image && <Image src={post.image.url} className="w-full h-96 object-cover" alt={post.post} />}
+        {post.image && <img src={post.image.url} className="w-full h-96 object-cover" alt={post.post} />}
       </div>
     </>
   );
