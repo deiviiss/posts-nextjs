@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import { usePosts } from '@context/postContext';
+import { usePosts } from '../context/postContext';
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { StopIcon } from '@heroicons/react/outline'
 import * as Yup from "yup";

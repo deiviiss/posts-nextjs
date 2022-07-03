@@ -1,4 +1,4 @@
-import { usePosts } from '@context/postContext';
+import { usePosts } from '../context/postContext';
 import Image from 'next/image'
 import { useRouter } from 'next/router';
 import toast from 'react-hot-toast';

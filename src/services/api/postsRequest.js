@@ -1,5 +1,5 @@
 import axios from 'axios';
-import endPoints from '@services/api';
+import endPoints from '../api/index';
 
 const getPostsRequest = async () => {
   const config = {
