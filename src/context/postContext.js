@@ -1,5 +1,5 @@
 import { useState, createContext, useContext, useEffect } from 'react';
-import { getPostsRequest, addPostsRequest, deletePostsRequest, getPostRequest, updatePostRequest } from '@/services/api/PostsRequest';
+import { getPostsRequest, addPostsRequest, deletePostsRequest, getPostRequest, updatePostRequest } from '../services/api/postsRequest';
 
 // container post context
 const PostContext = createContext();
