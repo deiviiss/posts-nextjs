@@ -1,7 +1,7 @@
 # CRUD NextJs
 Nextjs CRUD (Aplicacion Web Frontend)
 
-Tutoria Fazt Code
+Tutorial Fazt Code
 
 https://youtu.be/zm5gpipw3HM
 
